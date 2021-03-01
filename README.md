@@ -31,6 +31,11 @@ There are two levels to this homework assignment. The second level is optional b
 
 ### Level 1
 
+```
+https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Beauty_v1_00.tsv.gz
+```
+
 * Use the furnished schema to create tables in your RDS database.
 
 * Create two separate Google Colab notebooks and **extract** any two datasets from the list at [review dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), one into each notebook.

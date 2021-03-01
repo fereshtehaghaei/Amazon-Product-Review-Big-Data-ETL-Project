@@ -26,3 +26,6 @@ CREATE TABLE vine_table (
   total_votes INTEGER,
   vine TEXT
 );
+
+SELECT * 
+FROM vine_table
