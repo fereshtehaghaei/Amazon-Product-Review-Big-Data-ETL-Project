@@ -1,4 +1,4 @@
-CREATE TABLE review_id_table (
+CREATE TABLE review_id_beauty_table (
   review_id TEXT PRIMARY KEY NOT NULL,
   customer_id INTEGER,
   product_id TEXT,
@@ -7,19 +7,19 @@ CREATE TABLE review_id_table (
 );
 
 -- This table will contain only unique values
-CREATE TABLE products (
+CREATE TABLE products_beauty_table (
   product_id TEXT PRIMARY KEY NOT NULL UNIQUE,
   product_title TEXT
 );
 
 -- Customer table for first data set
-CREATE TABLE customers (
+CREATE TABLE customers_beauty_table (
   customer_id INT PRIMARY KEY NOT NULL UNIQUE,
   customer_count INT
 );
 
 -- vine table
-CREATE TABLE vine_table (
+CREATE TABLE vine_beauty_table (
   review_id TEXT PRIMARY KEY,
   star_rating INTEGER,
   helpful_votes INTEGER,
@@ -27,12 +27,5 @@ CREATE TABLE vine_table (
   vine TEXT
 );
 
-SELECT COUNT(*) 
+SELECT * 
 FROM vine_table
-
--- DROP TABLE customers;
--- DROP TABLE vine_table;
--- DROP TABLE products;
--- DROP TABLE customers_table;
--- DROP TABLE review_id_table;
-
