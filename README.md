@@ -38,7 +38,7 @@ In Amazon's Vine program, reviewers receive free products in exchange for review
 
 Amazon has several policies to reduce the bias of its Vine reviews: https://www.amazon.com/gp/vine/help?ie=UTF8.
 
-Investigated whether Vine reviews are free of bias. Used PYSPARK to analyze the data. The conclusion is Vine reviews are helpful and trustworthy. This analysis was done for beauty products by looking at helpful votes and five star reviews. It was hard to do analysis for books since there were only two 'Y' vines. 
+Investigated whether Vine reviews are free of bias. Used PYSPARK to analyze the data. The conclusion is Vine reviews are helpful and trustworthy. This analysis was done for beauty products by looking at helpful votes and five star reviews. It was hard to do analysis for books since there were only two 'Y' vines. For beauty paid product (Y) vine, it shows that 98% for the most helpful vote was a 4 star and 98% of those that didn't get paid gave a low review (1star). This wasn't really were the conclusion was drawn. After looking at the 5 star reviews based on paid, It showed that for the most helpful vote 83% gave a 5 star review and for unpaid It showed that for the most helpful vote 98% gave a 5 star review. Finally filtered down more and the total percentage that gave a 5 star review and the helpfulness of vote for paid it was 36% and for unpaid it was 61%. Therefore, Vine reviews are not bias and they are trustworthy. 
 
 
 
